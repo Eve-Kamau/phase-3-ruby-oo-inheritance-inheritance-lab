@@ -9,7 +9,7 @@ class Student < User
      @knowledge = knowledge
     end 
 
-    def learn (article)
+    def learn(article)
        @@knowledge << article
     end
 
